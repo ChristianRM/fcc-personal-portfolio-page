@@ -1,4 +1,4 @@
-# fcc-personal-portfolio-page
+# Personal Portfolio Page
 Free Code Camp Responsive Web Design Project #5
 
 This project is hosted at:
