@@ -1,0 +1,150 @@
+<html>
+
+  <head>
+    <title>Portfolio</title>
+    <link href="https://fonts.googleapis.com/css?family=Handlee" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <div id="blankspace"></div>
+    <!-- Navbar start -->
+    <div class="class logo-nav-container">
+      <nav class="nav" id="navbar">
+        <ul class="nav-list">
+          <li><a href="#welcome-section">Welcome section</a></li>
+          <li><a href="#about-me">About Me</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact Me</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <!-- Navbar end -->
+
+    <!-- header start -->
+    <section>
+      <div id="welcome-section" class="section header">
+        <img alt="" class="img-circle" src="https://cdn2.vectorstock.com/i/1000x1000/20/76/man-avatar-profile-vector-21372076.jpg">
+        <h1>Christian Rincon</h1>
+      </div>
+    </section>
+    <!-- header end -->
+
+    <!-- About Me section start -->
+    <section id="about-me" class="section">
+      <h1><span>About Me</span></h1>
+      <p>
+        Hello! I'm <strong>Christian</strong>. I'm a software developer since 2015 back when i got my Computer BS degree, started as a back-end developer with Node JS, and have been gradually learning different skills in the front-end development field such as html, css and the VueJS framework. I currently am broadening on core full-stack knowledge and learning on diverse IT topics.
+      </p>
+      <p class="quote">"You miss 100% of the shots you don't take" -Wayne Gretzky -Michael Scott</p>
+    </section>
+    <!-- About Me section end -->
+
+    <!-- Projects section start -->
+    <section id="projects" class="section">
+      <h1><span>My FreeCodeCamp Projects</span></h1>
+      <div id="projects-display">
+        
+        <div class="project-card">
+          <a href="https://codepen.io/ChrisRn/pen/eYZOpRw">
+            <h2 class="project-tile">
+              Documentation Page
+            </h2>
+            <div>
+              <img class="project-preview" src="https://assets.codepen.io/4834368/internal/screenshots/pens/eYZOpRw.default.png?fit=cover&format=auto&ha=false&height=180&quality=75&v=2&version=1596421876&width=320" alt="Documentation project preview" width="320" height="180">      
+            </div>
+          </a>
+        </div>
+
+        <div class="project-card">
+          <a href="https://codepen.io/ChrisRn/pen/dyGEwjB">
+            <h2 class="project-tile">
+              Product Page
+            </h2>
+            <div>
+              <img class="project-preview" src="https://assets.codepen.io/4834368/internal/screenshots/pens/dyGEwjB.default.png?fit=cover&format=auto&ha=false&height=180&quality=75&v=2&version=1595993901&width=320" alt="Documentation project preview" width="320" height="180">      
+            </div>
+          </a>
+        </div>
+
+        <div class="project-card">
+          <a href="https://codepen.io/ChrisRn/pen/VweOaWm">
+            <h2 class="project-tile">
+              Tribute Page
+            </h2>
+            <div>
+              <img class="project-preview" src="https://assets.codepen.io/4834368/internal/screenshots/pens/VweOaWm.default.png?fit=cover&format=auto&ha=false&height=180&quality=75&v=2&version=1595984658&width=320" alt="Documentation project preview" width="320" height="180">      
+            </div>
+          </a>
+        </div>
+      </div> 
+    </section>
+    <!-- Projects section end -->
+
+
+    <!-- My Skills section start -->
+
+    <section class="section">
+      <h1><span>My Skills</span></h1>
+      <div class="container">
+        <div>
+          <h2> Hard Skills </h2>
+          <ul>
+            <li>Software Coding <br />
+              <progress min="0" max="100" value="80"></progress>
+            </li>
+            <li>Web Development <br />
+              <progress min="0" max="100" value="75"></progress>
+            </li>
+            <li>Database (Relational and Non-relational) <br />
+              <progress min="0" max="100" value="85"></progress>
+            </li>
+            <li>Design and Planning <br />
+              <progress min="0" max="100" value="70"></progress>
+            </li>
+          </ul>  
+        </div>
+        <div>
+          <h2> Soft Skills </h2>
+          <ul>
+            <li>Teamwork <br />
+              <progress min="0" max="100" value="80"></progress>
+            </li>
+            <li>Problem Solving <br />
+              <progress min="0" max="100" value="70"></progress>
+            </li>
+            <li>Analysis <br />
+              <progress min="0" max="100" value="90"></progress>
+            </li>
+          </ul>  
+        </div>
+      </div>
+    </section>
+
+    <!-- My Skills section end -->
+
+    <!-- Form section start -->
+    <section class="section" id="contact">
+      <h1><span>Contact Me</span></h1>
+      <form>
+        <input name="name" placeholder="Name" type="text" required /><br/>
+        <input name="email" placeholder="Email" type="email" required /><br/>
+        <textarea name="message" placeholder="Message" required></textarea>
+        <input type="submit" value="SEND" class="submit" />
+      </form>
+    </section>
+    <!-- Form section end -->
+
+    <!-- Profiles section start -->
+    <section class="section" id="profiles">
+      <h1><span>Check My GitHub Profile</span></h1>
+      <div>
+        <a id="profile-link" href="https://github.com/ChristianRM" target="_blank">
+          <img alt="Github" src="https://image.flaticon.com/icons/svg/25/25231.svg" />
+        </a>
+      </div>
+    </section>
+    <!-- Profiles section end -->
+  </body>
+</html>
