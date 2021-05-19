@@ -45,13 +45,14 @@ html {
     border-radius: 10px;
   }
   .header {
-    background-image: url("https://www.techfern.com/wp-content/uploads/Web-Developer.jpg");
+    background-image: url("https://cdn.pixabay.com/photo/2014/05/02/21/47/laptop-336369_960_720.jpg");
     background-size: cover;
     background-position:center;
     padding: 0;
     margin-left: auto;
     margin-right: auto;
-    height: 100vh;
+    height: 70vh;
+    width: 100%;
   }
   
   .welcome-section {
